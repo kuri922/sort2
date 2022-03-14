@@ -30,13 +30,14 @@ class A22_StrArray extends A21_StrArray {
 		if(mode == 0) {
 				for(int i= 0; i < items.length-1; i++){
 					for(int j = i+1 ; j < items.length; j++){
-						//if(items[j] != null) {
+						if(items[j] != null) {
 							if(items[i].compareTo(items[j]) < 0){
 								String k = items[i];
 								items[i] = items[j];
 								items[j] = k;
 							}
-						//}
+						
+						}
 					}
 				}
 		}
@@ -55,10 +56,11 @@ class A22_StrArray extends A21_StrArray {
 			}
 			
         }
-		for(int j = 0; j < items.length; j++) {
+        for(int j = 0; j < items.length; j++) {
         	System.out.println(items[j]);
 		}
-        
+		
+		
 		
 	}
 }

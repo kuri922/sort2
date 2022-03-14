@@ -55,11 +55,11 @@ public class A21_StrArray {
 	public void clear(){
 		
 		
-		for (int i = 0; i < items.length; i++) {
+		//for (int i = 0; i < items.length; i++) {
 			String[] items = new String[0];
-		//items[i] = null;
-				size = 0;
-		}
+		//items[i] = null;size = 0;
+			System.out.println("íœ‚µ‚Ü‚µ‚½");
+		//}
 	
 		
 		
